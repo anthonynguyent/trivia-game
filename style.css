@@ -1,0 +1,39 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient();
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.container {
+	background: white;
+	border-radius: 10%;
+	width: 90%;
+	max-width: 100%;
+	box-shadow: 1%;
+	padding: 10px;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	background-color: gray;
+	color: white;
+	border-color: black;
+	border-radius: 15%;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: darkgray;
+}
+
+#result {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+}
